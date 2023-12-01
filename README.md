@@ -1,1 +1,17 @@
 # Sephora-ToxicProducts-DataVisualization
+
+In my project, I conducted an in-depth analysis of a dataset obtained from Kaggle. The dataset, collected in March 2023 through a Python scraper, encompasses information on over 8,000 beauty products available on the Sephora online store. The dataset includes details such as product and brand names, prices, ingredients, ratings, and various other features. Additionally, user reviews for more than 1 million entries, covering over 2,000 products from the Skincare category, were incorporated, containing user appearances and review ratings by other users.
+
+Project Objective:
+The primary objective of my project was to investigate the presence of toxic talc-based products within Sephora's extensive product line. To achieve this, I aggregated the dataset into products containing talc and subsequently employed visualizations and graphs to uncover patterns and insights. Furthermore, a linear regression Ordinary Least Squares (OLS) test was conducted.
+
+Ordinary Least Squares (OLS) is a statistical method employed in regression analysis to estimate the relationship between one or more independent variables and a dependent variable. In this project, the dependent variable is the product price in USD, while the independent variables are the 'loves_count' (indicating popularity) and the 'rating' given by users. OLS aims to minimize the sum of the squared differences between the observed and predicted values.
+
+P-Value Interpretation:
+The p-values associated with the 'loves_count' and 'rating' variables obtained from the OLS test play a crucial role in determining the significance of these factors in influencing the product price. A p-value measures the evidence against a null hypothesis. In this context, a low p-value (typically below 0.05) suggests that the variable is statistically significant in predicting the dependent variable, in this case, the product price.
+
+Conclusions:
+The analysis revealed that both the 'loves_count' and 'rating' variables are statistically significant predictors of product prices for items containing talc. The low p-values associated with these variables indicate that there is substantial evidence to reject the null hypothesis, suggesting a meaningful relationship between product popularity, user ratings, and the price of talc-containing beauty products at Sephora. In addition to uncovering the statistical significance of 'loves_count' and 'rating' on the prices of talc-containing products, the analysis sheds light on the popularity and potential marketing strategies for these items. The observed correlation between 'loves_count' and product prices suggests that consumer popularity, as gauged by the number of 'loves,' significantly influences the pricing of talc-based products. This connection underscores the impact of successful marketing and promotional efforts in driving consumer engagement and, consequently, product pricing within Sephora's beauty product line.
+
+As consumers, the findings of this analysis highlight the importance of being vigilant and informed when choosing beauty products, especially those containing talc. The significant relationship between user ratings, product popularity, and pricing underscores the potential influence of marketing strategies on consumer perceptions. Consequently, consumers should exercise caution, carefully scrutinizing product ingredients, reviews, and ratings to make informed decisions about the safety and value of talc-based products.
+
